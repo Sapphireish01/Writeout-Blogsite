@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    background-repeat: no-repeat;
+}
+
+
+header {
+    width: 50%;
+    padding: 1em;
+    margin: 1em 1em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog {
+    width: 300px;
+    font-size: 15px;
+    margin: 75px auto 0;
+    line-height: 25px;
+    letter-spacing: .4px;
+}
+.blog h2 {
+    margin: 25px 0;
+}
+.blog p {
+    margin: auto;
+}
+
+.btn {
+    margin-top: 40px;
+    text-align: center;
+}
+.btn a {
+    text-decoration: none;
+    letter-spacing: .6px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #1437c4;
+}
+.a-btn {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.a-btn a {
+    letter-spacing: .6px;
+    border-radius: 20px;
+    padding: 6px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0 3px;
+}
+.button {
+    position: relative;
+}
+.b-btn{
+    text-align: center;
+    margin-bottom: 15px;
+    z-index: 20;
+}
+
+.b-btn a {
+    letter-spacing: .6px;
+    border-radius: 20px;
+    padding: 6px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0 3px;   
+}
+.write-form {
+    background-color: #08AEEA;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+    width: 60%;
+    height: 120px;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-right: 10px;
+}
+
+.note input {
+    margin: 10px 10px 10px 2px;
+    font-weight: 600;
+    background: none;
+    border: none;
+    font-size: 16px;
+    height: 20px;
+    letter-spacing: .7px;
+    outline: none;
+}
+
+.note textarea {
+    height: 80%;
+    background: none;
+    padding: 3px;
+    letter-spacing: .7px;
+    outline: none;
+    border: none;
+}
+.note textarea::-webkit-scrollbar {
+    width: 7px;
+}
+.note textarea::-webkit-scrollbar-track {
+    background: #81e6fb;
+}
+.note textarea::-webkit-scrollbar-thumb {
+    background-color: #2AF598;
+    border-radius: 5px;
+    border: 2px solid #61b99c;
+}
+.icon {
+    margin: auto 3px;
+    padding: 4px;
+    width: 50px;
+    box-shadow: 0 0 3px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.fa-paper-plane {
+    color: rgb(18, 27, 27);
+}
+
+footer {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+@media only screen and (max-width: 450px) {
+    .blog {
+        font-size: 12px;
+        margin-top: 30px;        
+    }
+    header {
+        width: 62%;
+        font-size: 14px;
+    }
+    .post {
+        width: 315px;
+        
+    }
+    .write-form {
+        width: 100%;
+    }
+}
+.post {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 100px;
+}
+
+.select {
+    position: relative;
+    padding: 10px 20px 15px;
+    margin: 10px 25px 50px;
+    box-shadow: 0 0 3px 0;
+    border-radius: 20px;
+}
+.delete-button {
+    width: 40px;
+    border-radius: 20px;
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: 5px;
+    right: 7px;
+}
+.select .delete-button {
+    display: none;
+}
+.select:hover .delete-button{
+    display: block;
+}
+::placeholder {
+    color: black;
+}
+
+.rxt-btn {
+    background: none;
+    border: none;
+}
+footer h4 {
+    margin-left: 20px;
+}
+.contact {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+.contact div {
+    width: 35px;
+    text-align: center;
+}
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+.fa-brands:hover {
+    font-size: 23px;
+    transition: 0.5s;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {    
+    background-color: #11505e;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #1189a2;
+    border-radius: 12px;
+}
